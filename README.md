@@ -18,8 +18,7 @@ dict = {
 }
 
 
-# this function BP accepts two parameters and subtracts 120 and 80 from them respectively. 
-# Depending on the difference, the function will print out a statement that states the blood pressure and if it is good or bad
+# this function BP accepts two parameters and subtracts 120 and 80 from them respectively. Depending on the difference, the function will print out a statement that states the blood pressure and if it is good or bad
 def BP(x,y):
     diastolic = x - 120
     systolic = y - 80
@@ -36,9 +35,7 @@ def BP(x,y):
 
 
 
-# this function accepts two parameters. If the first parameter is greater than or equal to 121 the funciton will set systolic equal to bad, anything else will
-# systolic equal to good. If the second parameter is greater than or equal to 81 the funciton will set systolic equal to bad, anything else will
-# systolic equal to good. The function will then create a list 'output' with the values systolic and diastolic and return the values.
+# this function accepts two parameters. If the first parameter is greater than or equal to 121 the funciton will set systolic equal to bad, anything else will systolic equal to good. If the second parameter is greater than or equal to 81 the funciton will set systolic equal to bad, anything else will systolic equal to good. The function will then create a list 'output' with the values systolic and diastolic and return the values.
 
 def BP2(x,y):
     if x >= 121:
