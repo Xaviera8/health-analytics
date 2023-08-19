@@ -2,8 +2,15 @@ import pandas as pd
 import numpy as np
 
 num = 1
+print (num)
+
 str = 'string'
+print(str)
+
 list = [1, 2, 3]
+print(list)
+
+
 
 dict = {
     'key': 'value',
